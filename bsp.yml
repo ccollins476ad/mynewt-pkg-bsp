@@ -20,16 +20,16 @@
 bsp.arch: # *** MCU-architecture
 bsp.compiler: # *** compiler-package
 bsp.linkerscript:
-    - '$$fullpkgname.ld'
+    - '$$pkgfullname.ld'
     - # *** mcu-linker-script
 bsp.linkerscript.BOOT_LOADER.OVERWRITE:
     - '$$pkgdir/boot-$$pkgname.ld'
     - # *** mcu-linker-script
 bsp.part2linkerscript: "$$pkgdir/split-$$pkgname.ld"
-bsp.downloadscript: "$$fullpkgname_download.sh"
-bsp.debugscript: "$$fullpkgname_debug.sh"
-bsp.downloadscript.WINDOWS.OVERWRITE: "$$fullpkgname_download.cmd"
-bsp.debugscript.WINDOWS.OVERWRITE: "$$fullpkgname_debug.cmd"
+bsp.downloadscript: "$$pkgfullname_download.sh"
+bsp.debugscript: "$$pkgfullname_debug.sh"
+bsp.downloadscript.WINDOWS.OVERWRITE: "$$pkgfullname_download.cmd"
+bsp.debugscript.WINDOWS.OVERWRITE: "$$pkgfullname_debug.cmd"
 
 bsp.flash_map:
     areas:
