@@ -1,6 +1,8 @@
-# Sample Package Definition
+# Sample BSP Definition
 
-This is a basic definition of a sample Mynewt BSP package.
+This is a basic definition of a sample Mynewt BSP package.  See
+https://mynewt.apache.org/latest/os/core_os/porting/port_bsp/ for documentation
+on creating a Mynewt BSP package.
 
 The source files are located in the src/ directory.
 

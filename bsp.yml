@@ -17,8 +17,10 @@
 # under the License.
 #
 
-bsp.arch: 'cortex_m4'
-bsp.compiler: '@apache-mynewt-core/compiler/arm-none-eabi-m4'
+### Entries containing `***` need to be replaced with actual values.
+
+bsp.arch: # *** <MCU-architecture>
+bsp.compiler: # *** <compiler-package>
 bsp.linkerscript:
     - '$$pkgfullname.ld'
     - # *** mcu-linker-script
