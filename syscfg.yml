@@ -17,11 +17,8 @@
 # under the License.
 #
 
-pkg.name: your-pkg-name
-pkg.type: bsp
-pkg.description: "Description of your package"
-pkg.author: "You <you@you.org>"
-pkg.homepage: "http://your-url.org/"
-pkg.keywords:
+# Settings this bsp defines.
+syscfg.defs:
 
-pkg.deps:
+# Settings this bsp overrides.
+syscfg.vals:
