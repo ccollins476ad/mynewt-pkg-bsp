@@ -17,8 +17,8 @@
 # under the License.
 #
 
-bsp.arch: # *** MCU-architecture
-bsp.compiler: # *** compiler-package
+bsp.arch: 'cortex_m4'
+bsp.compiler: '@apache-mynewt-core/compiler/arm-none-eabi-m4'
 bsp.linkerscript:
     - '$$pkgfullname.ld'
     - # *** mcu-linker-script
