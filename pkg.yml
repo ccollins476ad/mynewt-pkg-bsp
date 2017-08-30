@@ -17,6 +17,8 @@
 # under the License.
 #
 
+### Entries containing `***` need to be replaced with actual values.
+
 pkg.name: your-pkg-name
 pkg.type: bsp
 pkg.description: "Description of your package"
@@ -25,3 +27,5 @@ pkg.homepage: "http://your-url.org/"
 pkg.keywords:
 
 pkg.deps:
+    - # *** <MCU-package>
+    - '@apache-mynewt-core/libc/baselibc'
